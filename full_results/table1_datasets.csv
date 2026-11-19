@@ -1,0 +1,4 @@
+dataset,n_raw,features_raw,minority_raw,features_with_missing,max_missing_%,identical_rows_removed,n_clean,features_clean,minority_clean,minority_per_feature,positive_share
+HCC,165,49,63,44,48.5,0,165,46,63,1.37,0.382
+Cervical,858,32,55,26,91.7,26,832,28,54,1.93,0.065
+Lung,309,15,39,0,0.0,33,276,15,38,2.53,0.862

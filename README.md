@@ -26,23 +26,23 @@
 | Элемент статьи | Файл |
 |---|---|
 | Таблица 1 | `table1_datasets.csv`, `cervical_duplicates_by_stage.csv` |
-| Рисунок 1, раздел 3.1 | `exp1_single_splits.csv` (AUC-ROC на каждом из 200 разбиений), `fig1_single_split_auc.png` |
+| Раздел 3.1 | `exp1_single_splits.csv` (AUC-ROC на каждом из 200 разбиений); дополнительный рисунок распределений – `fig1_single_split_auc.png` |
 | Таблица 2, раздел 3.2 | `table_sd_all.csv`; исходные значения по фолдам – `exp1b_cv_folds.csv` |
-| Рисунок 2 | `winner_shares.csv`, `fig2_winner_shares.png` |
+| Рисунок 1 | `winner_shares.csv`, `fig2_winner_shares.png` |
 | Таблица 3 (вложенная CV) | `exp1c_nested.csv`, `table2_nested.csv` |
 | Таблица 4 (критерии) | `exp2_tests.csv` (каждый повтор и каждая пара), `table3_best_vs_others_all_ropes.csv`, `table3_all_pairs_all_ropes.csv` (ROPE 0,005; 0,01; 0,02; критерий Шапиро–Уилка) |
 | A/A-проверка | `exp2_aa_null.csv` |
-| Рисунок 3, раздел 3.4 | `exp3_sample_size.csv`, `table_exp3_sd.csv`, `table_exp3_winners.csv`, `fig3_sample_size_sd.png` |
-| Таблица 5, рисунок 4 | `exp4_calibration_all_reps.csv` (все 5 реализаций с бутстрэп-интервалами), `table4_calibration_mean_min_max.csv`, `exp4_oof_predictions_all_reps.csv` (прогнозы всех 5 реализаций), `fig4_calibration.png` |
+| Рисунок 2, раздел 3.4 | `exp3_sample_size.csv`, `table_exp3_sd.csv`, `table_exp3_winners.csv`, `fig3_sample_size_sd.png` |
+| Таблица 5, раздел 3.5 | `exp4_calibration_all_reps.csv` (все 5 реализаций с бутстрэп-интервалами), `table4_calibration_mean_min_max.csv`, `exp4_oof_predictions_all_reps.csv` (прогнозы всех 5 реализаций); дополнительный рисунок калибровочных кривых – `fig4_calibration.png` |
 | Бутстрэп полного цикла (OOB) | `exp4b_oob_bootstrap.csv`, `table4b_oob_intervals.csv` |
-| Рисунок 5, раздел 3.7 | `pitfalls_folds.csv`, `table_pitfalls.csv`, `fig5_pitfalls.png` (сравнение на одинаковых записях и разбиениях) |
-| Таблица 6, раздел 3.6 | `extra_imbalance_metrics.csv` |
+| Рисунок 3, раздел 3.6 | `pitfalls_folds.csv`, `table_pitfalls.csv`, `fig5_pitfalls.png` (сравнение на одинаковых записях и разбиениях) |
+| Метрики с учётом дисбаланса, раздел 3.5 (дополнительная таблица) | `extra_imbalance_metrics.csv` |
 | Очистка вне/внутри CV | `extra_preprocessing.csv` |
 | Очищенные данные | `clean_*.csv` (`row_id` – номер строки в файлах индексов, `orig_row` – номер строки исходного файла) |
 | Индексы разбиений | `splits_exp1_single_70_30.csv`, `splits_cv5x5_all.csv` |
 | Программное окружение | `environment.json` |
 
-Имена файлов `table2_nested.csv`, `table3_*.csv`, `table4_*.csv` сохранены по внутренней нумерации блокнота; соответствие номерам таблиц статьи приведено в первом столбце.
+Имена файлов (`fig1…fig5`, `table2_nested.csv`, `table3_*.csv`, `table4_*.csv`) сохранены по внутренней нумерации блокнота; соответствие номерам таблиц и рисунков статьи приведено в первом столбце. Дополнительные рисунок и таблицы не вошли в статью из-за ограничения объёма.
 
 ## Прежние материалы
 
